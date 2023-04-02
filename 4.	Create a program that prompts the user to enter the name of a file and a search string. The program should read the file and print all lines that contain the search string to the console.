@@ -1,0 +1,7 @@
+filename = input("Enter a filename: ")
+search_string = input("Enter a search string: ")
+
+with open(filename) as f:
+    for line in f:
+        if search_string in line:
+            print(line)
