@@ -1,0 +1,19 @@
+import pandas as pd
+
+#read text file into pandas DataFrame
+df = pd.read_csv("data.txt", sep=" ")
+
+#display DataFrame
+print(df)
+
+   column1  column2
+0        1        4
+1        3        4
+2        2        5
+3        7        9
+4        9        1
+5        6        3
+6        4        4
+7        5        2
+8        4        8
+9        6        8
