@@ -1,0 +1,8 @@
+import struct
+    import numpy as np
+
+    data =[]
+
+    with open('binary_file', "rb") as f:
+        while len(data)<length(binary_file):
+            data.extend([struct.unpack('f',f.read(4))])
